@@ -16,7 +16,7 @@ func TestGetAPIKeyTableDriven(t *testing.T) {
 		{
 			name: "Success: Correct ApiKey",
 			headers: http.Header{
-				"Authorization": []string{"ApiKey secret-1234"},
+				"Authorization": []string{"ApiKey secret-123"},
 			},
 			want:    "secret-123",
 			wantErr: nil,
